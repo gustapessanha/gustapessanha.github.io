@@ -105,7 +105,32 @@
 
 	<script type="text/javascript">
 		
+		$('#txt').typeIt({
+		speed:50,
+		autoStart:false,
+		})
+		.tiType('Aceito')
+		.tiPause(400)
+		.tiType(' freelas.')
+		.tiBreak().tiPause(750)
+		.tiType('Manda um email!!')
+		.tiPause(500)
 
+		$(window).scroll(function(){
+			var scroll=$(window).scrollTop();
+			if (scroll > 500){
+				$('#menu').css('background-color','#031081')
+			}else {
+				$('#menu').css('background-color','rgba(0,0,0,0)')
+			}
+		})
+
+		var rolar = click;
+		$(document).click(function(){
+			$('html,body').animate({
+				scrollTop:$(rolar).offset().top
+			},'slow')
+		})
 
 	</script>
 
