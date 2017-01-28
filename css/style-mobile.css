@@ -1,0 +1,17 @@
+/* Tablet */
+@media only screen and (max-width:768px){
+
+}
+
+/* Mobile */
+@media only screen and (max-width:480px){
+  #menu{
+    display: none;
+  }
+    .skills img{
+    width: 50px;
+  }
+  .portfolio .texto a{
+  	margin-left:100px;
+  }
+}
