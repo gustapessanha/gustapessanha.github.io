@@ -8,6 +8,12 @@
   #menu{
     display: none;
   }
+  .about img{
+  	margin-top: 100px;
+  }
+  .about p{
+  	font-size: 14px;
+  }
     .skills img{
     width: 50px;
   }
